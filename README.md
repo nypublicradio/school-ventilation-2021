@@ -5,11 +5,11 @@ This GitHub repo contains data and methods for our 2021 story, [TKTK](<>). In th
 ## Methodology
 
 The analysis consisted of the following steps:
-1\. We gathered the ventilation reports for Department of Education buildings in NYC.
-2\. We gathered information on those buildings (and the schools within them) from NYC Open Data.
-3\. For each of these schools, we collected COVID case and enrollment data from the NYS Department of Health.
-4\. We identified school buildings that relied mostly on windows for ventilation, as well as buildings in the same areas of the city that also have HVAC. (Experts [told](https://gothamist.com/news/nyc-officials-say-school-windows-can-always-offer-solid-ventilation-independent-scientists-disagree) WNYC/Gothamist that windows are not as reliable a source of fresh air as properly functioning HVAC.)
-5\. We compared COVID case rates between the two groups.
+1. We gathered the ventilation reports for Department of Education buildings in NYC.
+2. We gathered information on those buildings (and the schools within them) from NYC Open Data.
+3. For each of these schools, we collected COVID case and enrollment data from the NYS Department of Health.
+4. We identified school buildings that relied mostly on windows for ventilation, as well as buildings in the same areas of the city that also have HVAC. (Experts [told](https://gothamist.com/news/nyc-officials-say-school-windows-can-always-offer-solid-ventilation-independent-scientists-disagree) WNYC/Gothamist that windows are not as reliable a source of fresh air as properly functioning HVAC.)
+5. We compared COVID case rates between the two groups.
 
 The sections below go into more detail about the data collection and analysis.
 

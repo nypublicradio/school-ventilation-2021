@@ -137,4 +137,4 @@ All the files listed above have the same columns:
 
 ## Questions? Comments? Concerns?
 
-If you want to replicate this analysis or do something similar and need advice or more details, [drop us a line](jjeffrey-wilensky@nypublicradio.org).
+If you want to replicate this analysis or do something similar and need advice or more details, drop us a line at jjeffrey-wilensky@nypublicradio.org.

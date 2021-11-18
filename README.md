@@ -1,6 +1,7 @@
 # School ventilation and COVID
 
-This GitHub repo contains data and methods for our 2021 story, [TKTK](<>). In the story, we used publicly available data on ventilation and COVID cases in New York City schools to examine whether case rates were higher in buildings that rely on windows for fresh air (as opposed to HVAC). Here, we'll show you how we did it.
+This GitHub repo contains data and methods for our 2021 story, [NYC Schools Bought Weaker Air Purifiers. Now Underventilated Campuses Are More Prone To COVID Cases
+](https://gothamist.com/news/nyc-schools-bought-weaker-air-purifiers-now-underventilated-campuses-are-more-prone-covid-cases). In the story, we used publicly available data on ventilation and COVID cases in New York City schools to examine whether case rates were higher in buildings that rely on windows for fresh air (as opposed to HVAC). Here, we'll show you how we did it.
 
 ## Methodology
 

@@ -46,13 +46,15 @@ To fill in other information about the schools, I downloaded the [2019 - 2020 Sc
 ### Case data
 
 For each Basic Education Data System (BEDS) code corresponding to an open school in the 2019 - 2020 School Locations dataset, I downloaded its [New York State COVID-19 Report Card](https://schoolcovidreportcard.health.ny.gov/#/home) as of October 29th, 2021. I pulled the following fields from the underlying JSON:
-studentEnrolled
-teacherEnrolled (only charter schools distinguish between teachers and staff so this is 0 for district schools)
-staffEnrolled
-allTimeCounts.positiveStudents
-allTimeCounts.positiveTeachers (see note about teachers above)
-allTimeCounts.positiveStaff
-allTimeCounts.positiveTotal
+
+- studentEnrolled
+- teacherEnrolled (only charter schools distinguish between teachers and staff so this is 0 for district schools)
+- staffEnrolled
+- allTimeCounts.positiveStudents
+- allTimeCounts.positiveTeachers (see note about teachers above)
+- allTimeCounts.positiveStaff
+- allTimeCounts.positiveTotal
+
 I added these counts to the school locations dataset. Then, in the school locations dataset, I summed student and staff/teacher cases as well as enrollment by Primary_building_code to get each building’s total case and enrollment counts. I joined these totals with the ventilation dataset by building code.
 
 We filtered out school buildings that weren’t in the 2019 - 2020 school locations list and schools that didn’t have case data available (about 60 of each).

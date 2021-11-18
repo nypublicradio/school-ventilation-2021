@@ -58,7 +58,7 @@ We filtered out school buildings that weren’t in the 2019 - 2020 school locati
 
 ### Zip code analysis
 
-Grouping[^1]&#x3A; The “other ventilation” school buildings were filtered based on whether their zip codes matched those found in the “low ventilation” group. Doing so provided 61 school buildings in the low ventilation group and 296 school buildings in the other ventilation group spread across 39 unique zip codes.
+Grouping[^1]: The “other ventilation” school buildings were filtered based on whether their zip codes matched those found in the “low ventilation” group. Doing so provided 61 school buildings in the low ventilation group and 296 school buildings in the other ventilation group spread across 39 unique zip codes.
 
 Case rates: Through October 29th, the low-ventilation buildings recorded 23% more COVID-19 cases per student and 29% more cases per staff than other-ventilation buildings. Our analysis shows the rates as cases per 10,000 students or cases per 10,000 staff.
 
@@ -66,7 +66,7 @@ Building age: The low-ventilation school buildings have an average opening date 
 
 Classroom Stats: The low-ventilation buildings had fewer total classrooms on average than other-ventilation buildings in the same zip code (32 versus 50), a lower average student enrollment (464 versus 808), and a lower average staff size (76 versus 116). But low-ventilation schools had a similar number of students per classroom (17 versus 16) and staff per classroom (3 versus 2) as other-ventilation, suggesting that population density within buildings did not play a role.   
 
-[^1]&#x3A; We found similar trends when the school buildings were grouped by neighborhood designation and census tract.
+
 
 ## Files included
 
@@ -89,50 +89,51 @@ This is a subset of allData.csv including all the high-ventilation buildings in 
 
 All the files listed above have the same columns:
 
--   Row Labels: Building code, used to find ventilation reports.
--   WindowsOnly Number: Number of "Operational" or "Repair in Progress" classrooms relying only on windows for ventilation.
--   WindowsOnly Percent: Proportion of "Operational" or "Repair in Progress" classrooms relying only on windows for ventilation.
--   OtherVentilation Number: Number of "Operational" or "Repair in Progress" classrooms that have working supply fans, exhaust fans or unit ventilators.
--   OtherVentilation Percent: Proportion of "Operational" or "Repair in Progress" classrooms that have working supply fans, exhaust fans or unit ventilators.
--   TotalClassrooms (not inc DNE): Total number of "Operational" or "Repair in Progress" classrooms.
--   Does Not Exist Number: Number of "Does Not Exist" classrooms (not used for instruction).
--   Does Not Exist Percent
--   Operational Number
--   Operational Percent
--   Repair In Progress Number
--   Repair in Progress Percent
--   Does Not Exist or Repair in Progress Number: Sum of "Does Not Exist Number" and "Repair in Progress Number."
--   Does Not Exist or Repair in Progress Percent
--   Total Number Classrooms: Total classrooms, including "Does Not Exist."
--   Address: Building address from 2019-2020 School Locations list.
--   Latitude: Latitude from 2019-2020 School Locations list.
--   Longitude: Longitude from 2019-2020 School Locations list.
--   OpenCage Address: Another address option, from geocoder OpenCage.
--   OpenCage Zip Code: Another zip code option, from geocoder OpenCage.
--   OpeningDate: Opening date of the oldest school in each building (may not be the same as construction date) from 2019-2020 School Locations.
--   SchoolType: Grade range of one school in the building (not including co-located schools), from 2019-2020 School Locations.
--   NTANumber: Neighborhood Tabulation Area of the building, from School Locations
--   NTAName: Ibid.
--   JoinedSchoolListLocList: Comma-separated list of all school names associated with the building in 2019-2020 School Locations.
--   Census_tract: Census tract of the building, from 2019-2020 School Locations.
--   numSchools: Number of schools associated with the building in 2019-2020 School Locations.
--   studentEnrollment: Estimated student enrollment in the building, from the New York State COVID-19 Report Cards of the schools in the building.
--   studentCases: Cumulative number of student cases from the 2021-2022 school year, from the New York State COVID-19 Report Cards of the schools in the building.
--   staffAndTeacherEnrollment: Estimated staff and teacher enrollment in the building, from the New York State COVID-19 Report Cards of the schools in the building.[^2]
--   staffAndTeacherCases: Cumulative number of staff and teacher cases from the 2021-2022 school year, from the New York State COVID-19 Report Cards of the schools in the building.
--   totalCases: Sum of student and staff/teacher cases.
--   totalSchoolPop: Sum of student and staff/teacher enrollment.
--   studentsPerClassroom: studentEnrollment divided by TotalClassrooms (not inc DNE).
--   staffPerClassroom: staffAndTeacherEnrollment divided by TotalClassrooms (not inc DNE).
--   totalSchoolPopPerClassroom: Sum of studentEnrollment and staffAndTeacherEnrollment divided by TotalClassrooms (not inc DNE).
--   casePerStudent: studentCases divided by studentEnrollment.
--   casesPerStaff: staffAndTeacherCases divided by staffAndTeacherEnrollment.
--   totalCasesPerPop: totalCases divided by totalSchoolPop.
--   caseRatePer10,000Student: casePerStudent multiplied by 10K.
--   caseRatePer10,000Staff: casesPerStaff multiplied by 10K.
--   totalCaseRatePer10,000Pop: totalCasesPerPop multiplied by 10K.
+-   **Row Labels**: Building code, used to find ventilation reports.
+-   **WindowsOnly Number**: Number of "Operational" or "Repair in Progress" classrooms relying only on windows for ventilation.
+-   **WindowsOnly Percent**: Proportion of "Operational" or "Repair in Progress" classrooms relying only on windows for ventilation.
+-   **OtherVentilation Number**: Number of "Operational" or "Repair in Progress" classrooms that have working supply fans, exhaust fans or unit ventilators.
+-   **OtherVentilation Percent**: Proportion of "Operational" or "Repair in Progress" classrooms that have working supply fans, exhaust fans or unit ventilators.
+-   **TotalClassrooms (not inc DNE)**: Total number of "Operational" or "Repair in Progress" classrooms.
+-   **Does Not Exist Number**: Number of "Does Not Exist" classrooms (not used for instruction).
+-   **Does Not Exist Percent** Proportion of "Does Not Exist" classrooms (not used for instruction).
+-   **Operational Number**
+-   **Operational Percent**
+-   **Repair In Progress Number**
+-   **Repair in Progress Percent**
+-   **Does Not Exist or Repair in Progress Number**: Sum of "Does Not Exist Number" and "Repair in Progress Number."
+-   **Does Not Exist or Repair in Progress Percent**
+-   **Total Number Classrooms**: Total classrooms, including "Does Not Exist."
+-   **Address**: Building address from 2019-2020 School Locations list.
+-   **Latitude**: Latitude from 2019-2020 School Locations list.
+-   **Longitude**: Longitude from 2019-2020 School Locations list.
+-   **OpenCage Address**: Another address option, from geocoder OpenCage.
+-   **OpenCage Zip Code**: Another zip code option, from geocoder OpenCage.
+-   **OpeningDate**: Opening date of the oldest school in each building (may not be the same as construction date) from 2019-2020 School Locations.
+-   **SchoolType**: Grade range of one school in the building (not including co-located schools), from 2019-2020 School Locations.
+-   **NTANumber**: Neighborhood Tabulation Area of the building, from School Locations
+-   **NTAName**: Ibid.
+-   **JoinedSchoolListLocList**: Comma-separated list of all school names associated with the building in 2019-2020 School Locations.
+-   **Census_tract**: Census tract of the building, from 2019-2020 School Locations.
+-   **numSchools**: Number of schools associated with the building in 2019-2020 School Locations.
+-   **studentEnrollment**: Estimated student enrollment in the building, from the New York State COVID-19 Report Cards of the schools in the building.
+-   **studentCases**: Cumulative number of student cases from the 2021-2022 school year, from the New York State COVID-19 Report Cards of the schools in the building.
+-   **staffAndTeacherEnrollment**: Estimated staff and teacher enrollment in the building, from the New York State COVID-19 Report Cards of the schools in the building. [^2]
+-   **staffAndTeacherCases**: Cumulative number of staff and teacher cases from the 2021-2022 school year, from the New York State COVID-19 Report Cards of the schools in the building.
+-   **totalCases**: Sum of student and staff/teacher cases.
+-   **totalSchoolPop**: Sum of student and staff/teacher enrollment.
+-   **studentsPerClassroom**: studentEnrollment divided by TotalClassrooms (not inc DNE).
+-   **staffPerClassroom**: staffAndTeacherEnrollment divided by TotalClassrooms (not inc DNE).
+-   **totalSchoolPopPerClassroom**: Sum of studentEnrollment and staffAndTeacherEnrollment divided by TotalClassrooms (not inc DNE).
+-   **casePerStudent**: studentCases divided by studentEnrollment.
+-   **casesPerStaff**: staffAndTeacherCases divided by staffAndTeacherEnrollment.
+-   **totalCasesPerPop**: totalCases divided by totalSchoolPop.
+-   **caseRatePer10,000Student**: casePerStudent multiplied by 10K.
+-   **caseRatePer10,000Staff**: casesPerStaff multiplied by 10K.
+-   **totalCaseRatePer10,000Pop**: totalCasesPerPop multiplied by 10K.
 
-[^2] Charter schools distinguish teachers and staff in the Report Card, while district schools lump them together.
+[^1]: We found similar trends when the school buildings were grouped by neighborhood designation and census tract.
+[^2]: Charter schools distinguish teachers and staff in the Report Card, while district schools lump them together.
 
 ## Questions? Comments? Concerns?
 
